@@ -8,13 +8,26 @@
       href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro&display=swap"
       rel="stylesheet"
     />
+    <!-- <link rel="stylesheet" href="css/media.css" media="screen and (max-width:768px)"> -->
     <link rel="stylesheet" href="css/estilos.css" />
+    <!-- <style>
+      @media screen and (max-width: 768px) {
+        body{
+          border: 10px solid blue
+        }
+      }
+    </style> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
     <header class="header">
       <div class="container">
         <figure class="logo">
-          <img src="images/logo.png"  height="50px" alt="Logo de http://leonidasesteban.com" />
+          <img
+            src="images/logo.png"
+            height="50px"
+            alt="Logo de http://leonidasesteban.com"
+          />
         </figure>
         <nav class="menu">
           <ol>
@@ -31,7 +44,7 @@
         </nav>
       </div>
     </header>
-    <section class="hero">
+    <section class="hero"> 
       <div class="container">
       <h1>
         Hola! Soy <strong>Guillermo Tantaleán</strong> <br />Desarrollador
@@ -48,41 +61,44 @@
     </section>
     <section id="portafolio" class="portfolio">
       <div class="container">
-      <h2>Portafolio (Proyectos Destacados)</h2>
-      <article class="project">
-        <div class="project_details">
-          <h3 class="project_title">Platzi Video</h3>
-        <h6 class="project_course">React Native / React</h6>
-        <p class="project_date">
-          <small><strong>Fecha:</strong> 01/07/2018</small>
-        </p>
-        <p class="project_url">
-          <small
-            ><strong>Puedes verlo en::</strong> www.platzi.com/native</small>
-        </p>
-        <p class="project_description">
-          Platzi Video fue el resultado de 3 meses de trabajo para crear la
-          mejor app para enseñar el funcionamiento de React y React Native.
-          Desde crear un vista-detalle, hasta patrones avanzados de nevegación,
-          este proyecto ha sido el ejemplo de futuros creadores de aplicaciones
-          multiplataforma
-        </p>
-        </div>
-        
-        <figure class="project_imageContainer">
-          <img
-            class="project_image"
-            width="500"
-            src="images/platzi-video-react-native.png"
-            alt="proyecto del curso de React Native"
-          />
-        </figure>
-      </article>
+        <h2>Portafolio (Proyectos Destacados)</h2>
+        <article class="project">
+          <div class="project_details">
+            <h3 class="project_title">Platzi Video</h3>
+            <h6 class="project_course">React Native / React</h6>
+            <p class="project_date">
+              <small><strong>Fecha:</strong> 01/07/2018</small>
+            </p>
+            <p class="project_url">
+              <small
+                ><strong>Puedes verlo en::</strong> www.platzi.com/native</small
+              >
+            </p>
+            <p class="project_description">
+              Platzi Video fue el resultado de 3 meses de trabajo para crear la
+              mejor app para enseñar el funcionamiento de React y React Native.
+              Desde crear un vista-detalle, hasta patrones avanzados de
+              nevegación, este proyecto ha sido el ejemplo de futuros creadores
+              de aplicaciones multiplataforma
+            </p>
+          </div>
+
+          <figure class="project_imageContainer">
+            <img
+              class="project_image"
+              width="500"
+              src="images/platzi-video-react-native.png"
+              alt="proyecto del curso de React Native"
+            />
+          </figure>
+        </article>
       </div>
     </section>
     <div class="container">
-    <h2 class="event_list_title">Más sobre mi experiencia</h2>
+     <h2 class="event_list_title">Más sobre mi experiencia</h2>
+    </div>
     <section id="eventos" class="event_list">
+    <div class="container">
       <article class="event">
         <figure class="event_imageContainer">
           <img class="event_image" src="images/platzi-conf.jpg" width="500" />
